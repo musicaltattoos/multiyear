@@ -1,0 +1,6 @@
+Used ogr2ogr within OSGeo4W Shell for bulk upload
+- ran into encoding issue with County layers because of special characters
+- would recommend using PostGIS Shapefile Loader for loading County layers
+
+Navigate to file location that contains all layers that you would like to bulk load
+ogr2ogr -f "PostgreSQL" PG:"user=username dbname=dbname" . -lco PRECISION=NO -lco SCHEMA=census -nlt PROMOTE_TO_MULTI -lco ENCODING=UTF-8

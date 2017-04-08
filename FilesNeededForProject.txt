@@ -1,0 +1,22 @@
+Files needed for entire project
+Concentrating specifically on State, County and Census Tract Layers ONLY
+
+2016 State layer
+tl_2016_us_state
+
+2016 County layer
+tl_2016_us_county
+
+All 2016 US States + D.C. layers
+Territories were eliminated out this project
+tl_2016_01_tract
+...
+...
+...
+for a list of state FIPS codes 
+https://www.mcc.co.mercer.pa.us/dps/state_fips_code_listing.htm
+
+For Geography Name Changes
+-- all changes are coded in the sql files
+tl_2011_04_tract
+tl_2010_36_tract10
